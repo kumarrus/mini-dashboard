@@ -14,7 +14,8 @@ import Box from 'components/Box'
 import Container from 'components/Container'
 import Select from 'components/Select'
 import { MeilisearchLogo, Indexes, Key } from 'components/icons'
-import HelpCenter from './HelpCenter'
+// import HelpCenter from './HelpCenter'
+import PricelistCenter from './PricelistCenter'
 
 const HeaderWrapper = styled.div`
   background-color: white;
@@ -129,7 +130,8 @@ const Header = ({
           />
           <ApiKey requireApiKeyToWork={requireApiKeyToWork} />
         </Box>
-        <HelpCenter />
+        {/* <HelpCenter /> */}
+        <PricelistCenter />
       </Container>
     </HeaderWrapper>
   )
