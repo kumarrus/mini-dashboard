@@ -1,0 +1,28 @@
+H Flex -> CARD
+
+NAV -> V Flex           DIVIDER            //PAGES//
+    ICON
+
+    H Flex
+        ICON TEXT
+    
+    H Flex
+        ICON TEXT
+
+Search PAGE
+
+V Flex
+    GRID
+        Search Bar
+
+        Options --> Index
+
+        API KEY
+    
+    RESULTS
+
+
+Add PAGE
+
+V Flex
+    DnDrop
